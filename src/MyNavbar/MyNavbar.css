@@ -1,0 +1,25 @@
+nav {
+    height: 50px;
+
+    background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(241,133,155,1) 100%);
+}
+.liste {
+    list-style-type:none;
+    background-color:linear-gradient(45deg, rgb(214, 28, 158) , midnightblue);
+    height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+    
+}
+.items{
+    margin-right: 10px;
+    color: #eddfee;
+    cursor:pointer;
+    margin-right:80px ;
+}
+.btn{
+display:none;
+}
